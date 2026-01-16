@@ -4,10 +4,8 @@ import Card from './components/Card';
 const App = () => {
   return (
     <div className="parent">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Card user="Arjun" age={21}/>
+      <Card user="Sam" age={18}/>
     </div>
   );
 };
