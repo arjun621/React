@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.main {
+  height: 350px;
+  width: 177px;
+  background-color: gainsboro;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.Poster {
+  position: relative;
+}
+
+.like-btn {
+  position: absolute;
+}
