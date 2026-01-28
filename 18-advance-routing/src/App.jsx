@@ -31,10 +31,13 @@ const App = () => {
         </Route>
 
         <Route path='*' element={<NotFound />}/>
+
       </Routes>
       <Footer />
     </div>
   )
 }
 
-export default App
+export default App 
+
+//13:00
